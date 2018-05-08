@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.wulin</groupId>
+		<artifactId>rpc-demo-parent</artifactId>
+		<version>1.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>rpc-demo-provider</artifactId>
+
+	<dependencies>
+		
+		<!-- RPC Server -->
+		<dependency>
+			<groupId>com.xxx.rpc</groupId>
+			<artifactId>rpc-server</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+		<!-- RPC Sample API -->
+		<dependency>
+			<groupId>cn.wulin</groupId>
+			<artifactId>rpc-demo-api</artifactId>
+			<version>1.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
